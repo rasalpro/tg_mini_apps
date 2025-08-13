@@ -114,7 +114,7 @@
 
   window.APP_CONFIG = {
     // Укажи здесь ссылку на опубикованный Google Doc (Файл → Публикация в Интернете)
-    DOC_PUBLISHED_URL: ""
+    DOC_PUBLISHED_URL: "https://docs.google.com/document/d/e/2PACX-1vTGCZTJ5PUCtB-Ki6eFGbQi057L3_ttzDpwD3bW9tPewq8t_8cBkUwph918hjgodfSgVX7aPwWTXCzz/pub"
   };
 
   init();
