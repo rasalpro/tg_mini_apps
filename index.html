@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Инструкция | Telegram Mini App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="title-wrap">
+        <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm14.243-4.485a1 1 0 0 0-1.4-.064L6.41 14.122c-.4.35-.214.997.31 1.09l3.9.682a.75.75 0 0 1 .583.55l.895 3.48c.139.54.857.66 1.169.2l.232-.34 3.925-11.2a1 1 0 0 0-.081-.989Z"/></svg>
+        <div class="titles">
+          <h1>Инструкция</h1>
+          <p class="subtitle">Откроется во всплывающем окне Mini App</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="btnTheme" class="ghost">Тема</button>
+        <button id="btnShare" class="primary">Поделиться</button>
+      </div>
+    </header>
+
+    <div id="notice" class="notice"></div>
+
+    <main id="content" class="content">
+      <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <div class="loading-text">Загружаем инструкцию…</div>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="footer-left">
+        <span id="docMeta">Источник: <code id="docUrl">локальный</code></span>
+      </div>
+      <div class="footer-right">
+        <button id="btnDone" class="success">Я ознакомился</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
